@@ -1,0 +1,525 @@
+{
+	"info": {
+		"_postman_id": "ceb435db-3828-4366-86e0-593ac9147627",
+		"name": "E-commerce Comic Backend",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38684625"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"RRR\",\r\n  \"author\": \"Vijayendra Prasad\",\r\n  \"year_of_publication\": 2023,\r\n  \"price\": 100,\r\n  \"discount\": 20,\r\n  \"pages\": 200,\r\n  \"condition\": \"Fictional story\",\r\n  \"description\": \"Two biggest heros United\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/comics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"comics"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"RRR\",\r\n  \"author\": \"Vijayendra Prasad\",\r\n  \"year_of_publication\": 2023,\r\n  \"price\": 100,\r\n  \"discount\": 20,\r\n  \"pages\": 200,\r\n  \"condition\": \"Fictional story\",\r\n  \"description\": \"Two biggest heros United\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/comics",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comics"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1664"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"680-/omNctruf5YdN4O61pdbN9Gozyc\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Oct 2024 04:23:31 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Spider-Man\",\n        \"author\": \"Stan Lee\",\n        \"year_of_publication\": 1962,\n        \"price\": \"25.99\",\n        \"discount\": \"10.00\",\n        \"pages\": 200,\n        \"book_condition\": null,\n        \"description\": \"The first appearance of Spider-Man!\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Super-man\",\n        \"author\": \"Myself\",\n        \"year_of_publication\": 2024,\n        \"price\": \"0.01\",\n        \"discount\": \"60.00\",\n        \"pages\": 300,\n        \"book_condition\": null,\n        \"description\": \"Super-man returned\"\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Super-man\",\n        \"author\": \"Myself\",\n        \"year_of_publication\": 2024,\n        \"price\": \"0.01\",\n        \"discount\": \"60.00\",\n        \"pages\": 300,\n        \"book_condition\": null,\n        \"description\": \"Super-man returned\"\n    },\n    {\n        \"id\": 4,\n        \"name\": \"Super-man\",\n        \"author\": \"Myself\",\n        \"year_of_publication\": 2024,\n        \"price\": \"0.01\",\n        \"discount\": \"60.00\",\n        \"pages\": 300,\n        \"book_condition\": null,\n        \"description\": \"Super-man returned\"\n    },\n    {\n        \"id\": 5,\n        \"name\": \"Spider-Man\",\n        \"author\": \"Stan Lee\",\n        \"year_of_publication\": 1962,\n        \"price\": \"25.99\",\n        \"discount\": \"10.00\",\n        \"pages\": 200,\n        \"book_condition\": null,\n        \"description\": \"The first appearance of Spider-Man!\"\n    },\n    {\n        \"id\": 6,\n        \"name\": \"Super-Man\",\n        \"author\": \"Myself\",\n        \"year_of_publication\": 2024,\n        \"price\": \"33.00\",\n        \"discount\": \"20.00\",\n        \"pages\": 100,\n        \"book_condition\": null,\n        \"description\": \"Super-Man returns\"\n    },\n    {\n        \"id\": 7,\n        \"name\": \"Hanuman\",\n        \"author\": \"Prashant varma\",\n        \"year_of_publication\": 2024,\n        \"price\": \"100.00\",\n        \"discount\": \"20.00\",\n        \"pages\": 200,\n        \"book_condition\": null,\n        \"description\": \"Universe Biggest Hero\"\n    },\n    {\n        \"id\": 8,\n        \"name\": \"RRR\",\n        \"author\": \"Vijayendra Prasad\",\n        \"year_of_publication\": 2023,\n        \"price\": \"100.00\",\n        \"discount\": \"20.00\",\n        \"pages\": 200,\n        \"book_condition\": null,\n        \"description\": \"Two biggest heros United\"\n    },\n    {\n        \"id\": 9,\n        \"name\": \"RRR\",\n        \"author\": \"Vijayendra Prasad\",\n        \"year_of_publication\": 2023,\n        \"price\": \"100.00\",\n        \"discount\": \"20.00\",\n        \"pages\": 200,\n        \"book_condition\": null,\n        \"description\": \"Two biggest heros United\"\n    }\n]"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"DEVARA\",\r\n  \"author\": \"Koratala Shiva\",\r\n  \"year_of_publication\": 2024,\r\n  \"price\": 300,\r\n  \"discount\": 20,\r\n  \"pages\": 200,\r\n  \"condition\": \"Fear evauls\",\r\n  \"description\": \"RED SEA\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/comics",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comics"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "53"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"35-rT8xgYk1pBwr51snnjpx1QXvg0o\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Oct 2024 04:28:05 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Comic created successfully\",\n    \"comicId\": 10\n}"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"DEVARA\",\r\n  \"author\": \"Koratala Shiva\",\r\n  \"year_of_publication\": 2024,\r\n  \"price\": 300,\r\n  \"discount\": 20,\r\n  \"pages\": 200,\r\n  \"condition\": \"Fear evauls\",\r\n  \"description\": \"RED SEA\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/comics?sort=price",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comics"
+							],
+							"query": [
+								{
+									"key": "sort",
+									"value": "price"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "2010"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"7da-z8InHG6bd4cWuBPSGMZ/NtWdKNc\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Oct 2024 04:29:02 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 1,\n        \"name\": \"Spider-Man\",\n        \"author\": \"Stan Lee\",\n        \"year_of_publication\": 1962,\n        \"price\": \"25.99\",\n        \"discount\": \"10.00\",\n        \"pages\": 200,\n        \"book_condition\": null,\n        \"description\": \"The first appearance of Spider-Man!\"\n    },\n    {\n        \"id\": 2,\n        \"name\": \"Super-man\",\n        \"author\": \"Myself\",\n        \"year_of_publication\": 2024,\n        \"price\": \"0.01\",\n        \"discount\": \"60.00\",\n        \"pages\": 300,\n        \"book_condition\": null,\n        \"description\": \"Super-man returned\"\n    },\n    {\n        \"id\": 3,\n        \"name\": \"Super-man\",\n        \"author\": \"Myself\",\n        \"year_of_publication\": 2024,\n        \"price\": \"0.01\",\n        \"discount\": \"60.00\",\n        \"pages\": 300,\n        \"book_condition\": null,\n        \"description\": \"Super-man returned\"\n    },\n    {\n        \"id\": 4,\n        \"name\": \"Super-man\",\n        \"author\": \"Myself\",\n        \"year_of_publication\": 2024,\n        \"price\": \"0.01\",\n        \"discount\": \"60.00\",\n        \"pages\": 300,\n        \"book_condition\": null,\n        \"description\": \"Super-man returned\"\n    },\n    {\n        \"id\": 5,\n        \"name\": \"Spider-Man\",\n        \"author\": \"Stan Lee\",\n        \"year_of_publication\": 1962,\n        \"price\": \"25.99\",\n        \"discount\": \"10.00\",\n        \"pages\": 200,\n        \"book_condition\": null,\n        \"description\": \"The first appearance of Spider-Man!\"\n    },\n    {\n        \"id\": 6,\n        \"name\": \"Super-Man\",\n        \"author\": \"Myself\",\n        \"year_of_publication\": 2024,\n        \"price\": \"33.00\",\n        \"discount\": \"20.00\",\n        \"pages\": 100,\n        \"book_condition\": null,\n        \"description\": \"Super-Man returns\"\n    },\n    {\n        \"id\": 7,\n        \"name\": \"Hanuman\",\n        \"author\": \"Prashant varma\",\n        \"year_of_publication\": 2024,\n        \"price\": \"100.00\",\n        \"discount\": \"20.00\",\n        \"pages\": 200,\n        \"book_condition\": null,\n        \"description\": \"Universe Biggest Hero\"\n    },\n    {\n        \"id\": 8,\n        \"name\": \"RRR\",\n        \"author\": \"Vijayendra Prasad\",\n        \"year_of_publication\": 2023,\n        \"price\": \"100.00\",\n        \"discount\": \"20.00\",\n        \"pages\": 200,\n        \"book_condition\": null,\n        \"description\": \"Two biggest heros United\"\n    },\n    {\n        \"id\": 9,\n        \"name\": \"RRR\",\n        \"author\": \"Vijayendra Prasad\",\n        \"year_of_publication\": 2023,\n        \"price\": \"100.00\",\n        \"discount\": \"20.00\",\n        \"pages\": 200,\n        \"book_condition\": null,\n        \"description\": \"Two biggest heros United\"\n    },\n    {\n        \"id\": 10,\n        \"name\": \"DEVARA\",\n        \"author\": \"Koratala Shiva\",\n        \"year_of_publication\": 2024,\n        \"price\": \"300.00\",\n        \"discount\": \"20.00\",\n        \"pages\": 200,\n        \"book_condition\": null,\n        \"description\": \"RED SEA\"\n    },\n    {\n        \"id\": 11,\n        \"name\": \"DEVARA\",\n        \"author\": \"Koratala Shiva\",\n        \"year_of_publication\": 2024,\n        \"price\": \"300.00\",\n        \"discount\": \"20.00\",\n        \"pages\": 200,\n        \"book_condition\": null,\n        \"description\": \"RED SEA\"\n    }\n]"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"DEVARA\",\r\n  \"author\": \"Koratala Shiva\",\r\n  \"year_of_publication\": 2024,\r\n  \"price\": 300,\r\n  \"discount\": 20,\r\n  \"pages\": 200,\r\n  \"condition\": \"Fear evauls\",\r\n  \"description\": \"RED SEA\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/comics/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comics",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "196"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"c4-V7xOf7+8kW7UUy/6JWqu+3XiJP0\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Oct 2024 04:29:23 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1,\n    \"name\": \"Spider-Man\",\n    \"author\": \"Stan Lee\",\n    \"year_of_publication\": 1962,\n    \"price\": \"25.99\",\n    \"discount\": \"10.00\",\n    \"pages\": 200,\n    \"book_condition\": null,\n    \"description\": \"The first appearance of Spider-Man!\"\n}"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"DEVARA\",\r\n  \"author\": \"Koratala Shiva\",\r\n  \"year_of_publication\": 2024,\r\n  \"price\": 300,\r\n  \"discount\": 20,\r\n  \"pages\": 200,\r\n  \"condition\": \"Fear evauls\",\r\n  \"description\": \"RED SEA\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/comics/8",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comics",
+								"8"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "188"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"bc-vqN7tDxDW/Qw1iWZuMq1yScx5KM\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Oct 2024 04:29:34 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 8,\n    \"name\": \"RRR\",\n    \"author\": \"Vijayendra Prasad\",\n    \"year_of_publication\": 2023,\n    \"price\": \"100.00\",\n    \"discount\": \"20.00\",\n    \"pages\": 200,\n    \"book_condition\": null,\n    \"description\": \"Two biggest heros United\"\n}"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"price\": 20.99,\r\n  \"condition\": \"used\",\r\n  \"discount\": 15\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/comics/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comics",
+								"1"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "40"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"28-5cC7ynmjewKxY0H1uF2Yr/OBDNE\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Oct 2024 04:32:14 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Comic deleted successfully\"\n}"
+				},
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"SALAR\",\r\n  \"author\": \"Prashant Neel\",\r\n  \"year_of_publication\": 2023,\r\n  \"price\": 100,\r\n  \"discount\": 20,\r\n  \"pages\": 200,\r\n  \"condition\": \"Friendship\",\r\n  \"description\": \"Two Friends become two Biggest Enimes\"\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:3000/api/comics",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"comics"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "53"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"35-wktBuz5jZP9EEFU7rvkoaxv/3gU\""
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 17 Oct 2024 04:34:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"message\": \"Comic created successfully\",\n    \"comicId\": 13\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:3000/api/comics",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"SALAR\",\r\n  \"author\": \"Prashant Neel\",\r\n  \"year_of_publication\": 2023,\r\n  \"price\": 100,\r\n  \"discount\": 20,\r\n  \"pages\": 200,\r\n  \"condition\": \"Friendship\",\r\n  \"description\": \"Two Friends become two Biggest Enimes\"\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/comics",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"comics"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
